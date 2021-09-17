@@ -46064,14 +46064,14 @@ var __webpack_exports__ = {};
   !*** ./resources/js/front.js ***!
   \*******************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.runtime.esm.js");
 Object(function webpackMissingModule() { var e = new Error("Cannot find module './views/App'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.runtime.esm.js");
+window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js"); // import Vue from 'vue';
 
 
-var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
+var app = new Vue({
   el: '#root',
   render: function render(h) {
     return h(Object(function webpackMissingModule() { var e = new Error("Cannot find module './views/App'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
